@@ -1,0 +1,99 @@
+/* EU BEST PARALLAX CSS */
+
+.parallax-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color:#090909;
+}
+.parallax-layer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+  .layer-title {
+    position:relative;
+    background-position: center;
+    min-height: 80vh;
+    z-index: 19;
+    background-image: url('../img/logo.svg');
+  }
+
+  .layer-0 {
+    top: 0px;
+    z-index: 5;
+    background-image: url('../img/parallax/0.png');
+  }
+  .layer-1 {
+    top: 0px;
+    z-index: 10;
+    background-image: url('../img/parallax/1.png');
+  }
+  .layer-2 {
+    top: 0px;
+    z-index: 10;
+    background-image: url('../img/parallax/2.png');
+  }
+  .layer-3 {
+    top: 0px;
+    z-index: 15;
+    background-image: url('../img/parallax/3.png');
+  }
+  .layer-4 {
+    top: 0px;
+    z-index: 20;
+    background-image: url('../img/parallax/4.png');
+  }
+  
+/* Enable Parallax */
+
+@media (min-width: 768px) {
+
+	#nonparallax {
+		display: none;
+	}
+	#parallax {
+		display: block;
+	}
+  .content {
+  position: absolute;
+  top: 100%;
+  background: #090909;
+  width: 100%;
+  min-height: 1100px;
+  z-index:150;
+  }
+}
+
+/* Disable Parallax */
+
+@media (max-width: 767px) {
+  
+#parallax {
+	display: none;
+}
+#nonparallax {
+  display: block;
+  position: relative;
+  background-color:#090909;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-image: url('../img/logo.svg');
+  min-height:500px;
+}
+
+.content {
+  position: relative;
+  top: 100%;
+  background: #090909;
+  width: 100%;
+  z-index:150;
+  }
+
+}
