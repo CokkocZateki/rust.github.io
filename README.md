@@ -1,1 +1,1 @@
-# rust.github.io
+# scandinavian.github.io
