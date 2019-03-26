@@ -1,0 +1,265 @@
+/* EU BEST THEME CSS */
+
+body {
+  color: #fff;
+  background-color: #090909;
+}
+
+.content {
+  position: absolute;
+  top: 100%;
+  background: #090909;
+  width: 100%;
+  min-height: 110px;
+  z-index:150;
+  padding-top: 200px;
+}
+
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 767px) {
+  .feature-heading {
+  font-size: 25px;
+  }
+  
+  .img-adjust {
+    margin-bottom: 20px;
+    width: 60%;
+  }
+   p.lead {
+  font-size:1.1rem;
+  }
+}
+
+@media (max-width: 992px) {
+   p.lead {
+  font-size:1.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .feature-heading {
+  font-size: 30px;
+    margin-top: 1.5rem;
+  }
+}
+  @media (min-width: 992px) {
+  .feature-heading {
+  font-size: 40px;
+    margin-top: 3rem;
+  }
+ 
+}
+@media (min-width: 1200px) {
+  .feature-heading {
+    font-size: 50px;
+    margin-top: 5rem;
+  }
+}
+
+/* FEATURES */
+
+.feature-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.feature-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+/* SPECIFIC ELEMENTS FOR STYLE */
+
+/* Change border radius colour from default (black) between features */
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* Change margin on paragraph text in features */
+p.lead {
+	
+	margin:20px 0;
+}
+
+/* MODAL STYLING */
+
+
+.modal {
+  position: fixed;
+  top: 10%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+}
+
+.modal-content {
+  background-color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+      font-family: Lato, sans-serif;
+}
+
+
+.modal-backdrop {
+  background-color: #000;
+}
+
+.modal-header {
+  letter-spacing: 0.2em;
+  padding: 15px;
+  border-bottom: 2px solid #000;
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.modal-body p {
+padding-top:5px;
+font-size:90%;
+color: rgba(254, 254, 254, 0.7);
+}
+
+.modal-body a {
+color:#999;
+text-decoration: underline;
+font-weight: 300;
+}
+
+.modal-body a:hover {
+color:#fff;
+}
+
+.modal-body-vote {
+
+padding-top:25px!important;
+
+
+}
+
+.modal-footer {
+  padding: 15px;
+  border-top: 2px solid #000;
+}
+
+.modal-footer > :not(:first-child) {
+  margin-left: .25rem;
+}
+
+.modal-footer > :not(:last-child) {
+  margin-right: .25rem;
+}
+
+.modal-footer p {
+padding-top:15px;
+font-size:80%;
+color: rgba(254, 254, 254, 0.7);
+padding-right:150px;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 0 0 #fff;
+  opacity: 0.5;
+}
+
+.close:focus, .close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: 0 0 0 #000;
+  opacity: .5;
+}
+
+/* FOOTER STYLING */
+
+  .footer-heading {
+    padding-top: 0px;
+    font-family: Poppins, sans-serif;
+   font-size: 0.8rem;
+   text-align: left;
+   font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  }
+
+  .footer-subheading {
+    padding-top: 20px;
+    font-family: Poppins, sans-serif;
+   font-size: 0.8rem;
+   text-align: left;
+   font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  }
+
+  .footer-text {
+font-size: 0.8rem;
+text-align: left;
+    font-family: Poppins, sans-serif;
+  }
+  
+ .footer-padding{
+
+  padding:20px 40px;
+ }
+
+ .footer-toprow-padding{
+
+padding-top:200px;
+
+ }
+
+.social img {
+    opacity: 0.5 !important;
+    margin:10px auto;
+    transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.social img:hover {
+opacity: 0.9 !important;
+transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.form-control {
+  font-size:0.8rem!important;
+}
+
+label {
+
+  margin-bottom:0!important;
+}
+
+
+.more {
+  cursor:pointer!important;
+}
+
+.form-control{
+
+  background-color:#c8c8c8;
+}
+
+.btn {
+  font-family: sans-serif!important;
+}
